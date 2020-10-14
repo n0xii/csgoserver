@@ -6,6 +6,10 @@ csgodir=$(pwd)
 cd ..
 mkdir steamcmd
 cd steamcmd
+sudo apt-get install wget
+sudo add-apt-repository multiverse
+sudo dpkg --add-architecture i386
+sudo apt update
 sudo apt-get install lib32gcc1
 wget  https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 tar zxvf steamcmd_linux.tar.gz
