@@ -7,6 +7,7 @@ cd ..
 mkdir steamcmd
 cd steamcmd
 sudo apt-get install wget
+sudo apt-get install software-properties-common
 sudo add-apt-repository multiverse
 sudo dpkg --add-architecture i386
 sudo apt update
